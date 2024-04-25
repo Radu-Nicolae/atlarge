@@ -1,0 +1,23 @@
+{
+    "name": "simple",
+    "topologies": [
+        {
+            "pathToFile": "topologies/topology-single.json"
+        },
+        {
+            "pathToFile": "topologies/topology-very-single.json"
+        }
+    ],
+    "workloads": [
+        {
+            "pathToFile": "traces/bitbrains-small",
+            "type": "ComputeWorkload"
+        }
+    ],
+    "allocationPolicies": [
+        {
+            "policyType": "Mem"
+        }
+    ],
+    "runs": 1
+}
